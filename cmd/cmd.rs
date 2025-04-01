@@ -79,6 +79,10 @@ async fn handle_request(req: Request<Body>, counter: Arc<IntCounter>) -> Result<
         return Ok(Response::new(Body::from("Hello, World!\n")));
     }
 
+    if req.uri().path() == "/bonjour" {
+        return Ok(Response::new(Body::from("Bonjour!\n")));
+    }
+    
     // Exemple de réponse pour toutes les autres routes
     let response = Response::new(Body::from("Hello, World!"));
 
