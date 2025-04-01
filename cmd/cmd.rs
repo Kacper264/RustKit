@@ -84,7 +84,7 @@ async fn handle_request(req: Request<Body>, counter: Arc<IntCounter>) -> Result<
     }
     
     // Exemple de réponse pour toutes les autres routes
-    let response = Response::new(Body::from("Hello, World!"));
+    let response = Response::new(Body::from("Bad endpoint"));
 
     Ok(response)
 }
