@@ -75,8 +75,8 @@ async fn handle_request(req: Request<Body>, counter: Arc<IntCounter>) -> Result<
     counter.inc();
 
     // Si c'est une requête pour "/metrics", on retourne "Hello, World!"
-    if req.uri().path() == "/metrics" {
-        return Ok(Response::new(Body::from("Hello, World!")));
+    if req.uri().path() == "/hello" {
+        return Ok(Response::new(Body::from("Hello, World!\n")));
     }
 
     // Exemple de réponse pour toutes les autres routes
