@@ -1,1 +1,1 @@
-/home/RustKit/target/debug/http_service: /home/RustKit/cmd/cmd.rs
+/Users/Kacper/Desktop/RustKit/target/debug/http_service: /Users/Kacper/Desktop/RustKit/src/app.rs /Users/Kacper/Desktop/RustKit/src/config.rs /Users/Kacper/Desktop/RustKit/src/handlers/mod.rs /Users/Kacper/Desktop/RustKit/src/handlers/user.rs /Users/Kacper/Desktop/RustKit/src/main.rs /Users/Kacper/Desktop/RustKit/src/middleware/metrics.rs /Users/Kacper/Desktop/RustKit/src/middleware/mod.rs
