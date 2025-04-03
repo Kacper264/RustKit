@@ -15,4 +15,4 @@ futures = "0.3"
 
 [[bin]]
 name = "http_service"
-path = "cmd/cmd.rs"
+path = "src/main.rs"
